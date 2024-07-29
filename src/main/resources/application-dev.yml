@@ -1,0 +1,9 @@
+eureka:
+  instance:
+    preferIpAddress: true
+    hostname: eureka-0
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+     # defaultZone: http://eureka-0.eureka-service.default.svc.cluster.local:8761/eureka
+
